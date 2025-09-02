@@ -1,0 +1,13 @@
+2025-09-02 15:36:46.967 [main] INFO  com.reward_project.coin.CoinApplication - Starting CoinApplication using Java 22.0.2 with PID 3552 (D:\grad1\project\coin\target\classes started by 12943 in D:\grad1\project\coin)
+2025-09-02 15:36:46.971 [main] INFO  com.reward_project.coin.CoinApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-02 15:36:48.613 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8082 (http)
+2025-09-02 15:36:48.627 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2025-09-02 15:36:48.630 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-02 15:36:48.631 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-09-02 15:36:48.700 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-02 15:36:48.701 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1651 ms
+2025-09-02 15:36:49.829 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2025-09-02 15:36:49.864 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8082 (http) with context path '/'
+2025-09-02 15:36:49.879 [main] INFO  com.reward_project.coin.CoinApplication - Started CoinApplication in 3.667 seconds (process running for 4.556)
+2025-09-02 16:23:14.214 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-02 16:23:14.233 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete

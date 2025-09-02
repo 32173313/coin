@@ -1,0 +1,268 @@
+2025-09-01 15:14:37.886 [main] INFO  com.reward_project.coin.CoinApplication - Starting CoinApplication using Java 22.0.2 with PID 30016 (D:\grad1\project\coin\target\classes started by 12943 in D:\grad1\project\coin)
+2025-09-01 15:14:37.888 [main] INFO  com.reward_project.coin.CoinApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-01 15:14:39.142 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8082 (http)
+2025-09-01 15:14:39.169 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2025-09-01 15:14:39.173 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-01 15:14:39.174 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-09-01 15:14:39.236 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-01 15:14:39.237 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1302 ms
+2025-09-01 15:14:39.992 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2025-09-01 15:14:40.012 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8082 (http) with context path '/'
+2025-09-01 15:14:40.020 [main] INFO  com.reward_project.coin.CoinApplication - Started CoinApplication in 2.733 seconds (process running for 3.513)
+2025-09-01 15:15:18.789 [http-nio-8082-exec-6] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-01 15:15:18.790 [http-nio-8082-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-01 15:15:18.792 [http-nio-8082-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-09-01 15:15:18.929 [http-nio-8082-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-01 15:15:19.277 [http-nio-8082-exec-6] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2ca56b46
+2025-09-01 15:15:19.279 [http-nio-8082-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-01 15:15:57.136 [http-nio-8082-exec-3] ERROR c.r.coin.service.impl.SendCoinServiceImpl - type为coin, subType为null的奖励不存在
+2025-09-01 15:15:57.153 [http-nio-8082-exec-4] ERROR c.r.coin.service.impl.SendCoinServiceImpl - type为coin, subType为null的奖励不存在
+2025-09-01 15:15:59.167 [http-nio-8082-exec-5] ERROR c.r.coin.service.impl.SendCoinServiceImpl - type为coin, subType为null的奖励不存在
+2025-09-01 15:16:01.182 [http-nio-8082-exec-2] ERROR c.r.coin.service.impl.SendCoinServiceImpl - type为coin, subType为null的奖励不存在
+2025-09-01 15:16:03.746 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-01 15:16:03.778 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-01 15:16:03.782 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-01 15:16:03.790 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-01 15:21:59.885 [main] INFO  com.reward_project.coin.CoinApplication - Starting CoinApplication using Java 22.0.2 with PID 25248 (D:\grad1\project\coin\target\classes started by 12943 in D:\grad1\project\coin)
+2025-09-01 15:21:59.888 [main] INFO  com.reward_project.coin.CoinApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-01 15:22:01.148 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8082 (http)
+2025-09-01 15:22:01.168 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2025-09-01 15:22:01.170 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-01 15:22:01.171 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-09-01 15:22:01.234 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-01 15:22:01.235 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1296 ms
+2025-09-01 15:22:02.074 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2025-09-01 15:22:02.104 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8082 (http) with context path '/'
+2025-09-01 15:22:02.114 [main] INFO  com.reward_project.coin.CoinApplication - Started CoinApplication in 2.84 seconds (process running for 3.602)
+2025-09-01 15:22:07.564 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-01 15:22:07.564 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-01 15:22:07.566 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-09-01 15:22:07.656 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-01 15:22:07.961 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2fb055a0
+2025-09-01 15:22:07.964 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-01 15:22:08.006 [http-nio-8082-exec-1] ERROR c.r.coin.service.impl.SendCoinServiceImpl - type为coin, subType为null的奖励不存在
+2025-09-01 15:22:08.048 [http-nio-8082-exec-2] ERROR c.r.coin.service.impl.SendCoinServiceImpl - type为coin, subType为null的奖励不存在
+2025-09-01 15:22:10.060 [http-nio-8082-exec-3] ERROR c.r.coin.service.impl.SendCoinServiceImpl - type为coin, subType为null的奖励不存在
+2025-09-01 15:22:12.073 [http-nio-8082-exec-4] ERROR c.r.coin.service.impl.SendCoinServiceImpl - type为coin, subType为null的奖励不存在
+2025-09-01 15:24:02.483 [http-nio-8082-exec-6] ERROR c.r.coin.service.impl.SendCoinServiceImpl - type为coin, subType为null的奖励不存在
+2025-09-01 15:24:02.547 [http-nio-8082-exec-7] ERROR c.r.coin.service.impl.SendCoinServiceImpl - type为coin, subType为null的奖励不存在
+2025-09-01 15:24:04.563 [http-nio-8082-exec-8] ERROR c.r.coin.service.impl.SendCoinServiceImpl - type为coin, subType为null的奖励不存在
+2025-09-01 15:24:06.577 [http-nio-8082-exec-9] ERROR c.r.coin.service.impl.SendCoinServiceImpl - type为coin, subType为null的奖励不存在
+2025-09-01 15:28:09.410 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-01 15:28:09.433 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-01 15:28:09.437 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-01 15:28:09.450 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-01 15:28:12.213 [main] INFO  com.reward_project.coin.CoinApplication - Starting CoinApplication using Java 22.0.2 with PID 39032 (D:\grad1\project\coin\target\classes started by 12943 in D:\grad1\project\coin)
+2025-09-01 15:28:12.216 [main] INFO  com.reward_project.coin.CoinApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-01 15:28:13.685 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8082 (http)
+2025-09-01 15:28:13.708 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2025-09-01 15:28:13.713 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-01 15:28:13.714 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-09-01 15:28:13.867 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-01 15:28:13.869 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1584 ms
+2025-09-01 15:28:15.059 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2025-09-01 15:28:15.092 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8082 (http) with context path '/'
+2025-09-01 15:28:15.102 [main] INFO  com.reward_project.coin.CoinApplication - Started CoinApplication in 3.416 seconds (process running for 4.232)
+2025-09-01 15:28:33.011 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-01 15:28:33.011 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-01 15:28:33.012 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-09-01 15:28:51.765 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-01 15:28:53.376 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2af6e49e
+2025-09-01 15:28:53.382 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-01 15:30:16.869 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m23s383ms638µs800ns).
+2025-09-01 15:30:17.247 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-01 15:30:17.272 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-01 15:30:17.278 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-01 15:30:17.335 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-01 15:34:27.784 [main] INFO  com.reward_project.coin.CoinApplication - Starting CoinApplication using Java 22.0.2 with PID 42668 (D:\grad1\project\coin\target\classes started by 12943 in D:\grad1\project\coin)
+2025-09-01 15:34:27.787 [main] INFO  com.reward_project.coin.CoinApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-01 15:34:29.054 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8082 (http)
+2025-09-01 15:34:29.069 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2025-09-01 15:34:29.071 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-01 15:34:29.071 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-09-01 15:34:29.130 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-01 15:34:29.131 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1299 ms
+2025-09-01 15:34:29.923 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2025-09-01 15:34:29.961 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8082 (http) with context path '/'
+2025-09-01 15:34:29.971 [main] INFO  com.reward_project.coin.CoinApplication - Started CoinApplication in 2.79 seconds (process running for 3.574)
+2025-09-01 15:34:31.895 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-01 15:34:31.921 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-01 15:34:34.748 [main] INFO  com.reward_project.coin.CoinApplication - Starting CoinApplication using Java 22.0.2 with PID 39172 (D:\grad1\project\coin\target\classes started by 12943 in D:\grad1\project\coin)
+2025-09-01 15:34:34.750 [main] INFO  com.reward_project.coin.CoinApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-01 15:34:36.195 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8082 (http)
+2025-09-01 15:34:36.209 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2025-09-01 15:34:36.211 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-01 15:34:36.211 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-09-01 15:34:36.277 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-01 15:34:36.278 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1460 ms
+2025-09-01 15:34:37.504 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2025-09-01 15:34:37.554 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8082 (http) with context path '/'
+2025-09-01 15:34:37.564 [main] INFO  com.reward_project.coin.CoinApplication - Started CoinApplication in 3.308 seconds (process running for 4.382)
+2025-09-01 15:34:39.245 [http-nio-8082-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-01 15:34:39.246 [http-nio-8082-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-01 15:34:39.247 [http-nio-8082-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-09-01 15:34:54.772 [http-nio-8082-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-01 15:34:56.315 [http-nio-8082-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@49628ee0
+2025-09-01 15:34:56.320 [http-nio-8082-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-01 15:36:09.835 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m13s409ms493µs400ns).
+2025-09-01 15:36:10.173 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-01 15:36:10.194 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-01 15:36:10.198 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-01 15:36:10.234 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-01 15:36:12.998 [main] INFO  com.reward_project.coin.CoinApplication - Starting CoinApplication using Java 22.0.2 with PID 17748 (D:\grad1\project\coin\target\classes started by 12943 in D:\grad1\project\coin)
+2025-09-01 15:36:13.000 [main] INFO  com.reward_project.coin.CoinApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-01 15:36:14.373 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8082 (http)
+2025-09-01 15:36:14.385 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2025-09-01 15:36:14.387 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-01 15:36:14.388 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-09-01 15:36:14.457 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-01 15:36:14.458 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1392 ms
+2025-09-01 15:36:15.505 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2025-09-01 15:36:15.547 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8082 (http) with context path '/'
+2025-09-01 15:36:15.560 [main] INFO  com.reward_project.coin.CoinApplication - Started CoinApplication in 3.056 seconds (process running for 3.782)
+2025-09-01 15:36:19.342 [http-nio-8082-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-01 15:36:19.342 [http-nio-8082-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-01 15:36:19.343 [http-nio-8082-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-09-01 15:36:26.543 [http-nio-8082-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-01 15:36:28.147 [http-nio-8082-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@284edb5a
+2025-09-01 15:36:28.153 [http-nio-8082-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-01 15:37:21.500 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-01 15:37:21.522 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-01 15:37:21.525 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-01 15:37:21.536 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-01 15:37:33.412 [main] INFO  com.reward_project.coin.CoinApplication - Starting CoinApplication using Java 22.0.2 with PID 36776 (D:\grad1\project\coin\target\classes started by 12943 in D:\grad1\project\coin)
+2025-09-01 15:37:33.415 [main] INFO  com.reward_project.coin.CoinApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-01 15:37:34.592 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8082 (http)
+2025-09-01 15:37:34.610 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2025-09-01 15:37:34.612 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-01 15:37:34.612 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-09-01 15:37:34.675 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-01 15:37:34.675 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1216 ms
+2025-09-01 15:37:35.467 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2025-09-01 15:37:35.493 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8082 (http) with context path '/'
+2025-09-01 15:37:35.504 [main] INFO  com.reward_project.coin.CoinApplication - Started CoinApplication in 2.625 seconds (process running for 3.385)
+2025-09-01 15:37:39.678 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-01 15:37:39.679 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-01 15:37:39.679 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-09-01 15:37:39.724 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-01 15:37:40.007 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@b60febe
+2025-09-01 15:37:40.009 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-01 15:37:51.958 [http-nio-8082-exec-3] ERROR c.r.coin.service.impl.SendCoinServiceImpl - type为coin, subType为null的奖励不存在
+2025-09-01 15:37:51.975 [http-nio-8082-exec-4] ERROR c.r.coin.service.impl.SendCoinServiceImpl - type为coin, subType为null的奖励不存在
+2025-09-01 15:37:53.988 [http-nio-8082-exec-5] ERROR c.r.coin.service.impl.SendCoinServiceImpl - type为coin, subType为null的奖励不存在
+2025-09-01 15:37:56.000 [http-nio-8082-exec-6] ERROR c.r.coin.service.impl.SendCoinServiceImpl - type为coin, subType为null的奖励不存在
+2025-09-01 15:37:57.976 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-01 15:37:57.994 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-01 15:37:57.997 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-01 15:37:58.004 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-01 15:38:02.913 [main] INFO  com.reward_project.coin.CoinApplication - Starting CoinApplication using Java 22.0.2 with PID 16264 (D:\grad1\project\coin\target\classes started by 12943 in D:\grad1\project\coin)
+2025-09-01 15:38:02.915 [main] INFO  com.reward_project.coin.CoinApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-01 15:38:04.131 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8082 (http)
+2025-09-01 15:38:04.146 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2025-09-01 15:38:04.149 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-01 15:38:04.149 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-09-01 15:38:04.211 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-01 15:38:04.212 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1246 ms
+2025-09-01 15:38:05.101 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2025-09-01 15:38:05.127 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8082 (http) with context path '/'
+2025-09-01 15:38:05.136 [main] INFO  com.reward_project.coin.CoinApplication - Started CoinApplication in 2.791 seconds (process running for 3.557)
+2025-09-01 15:38:07.850 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-01 15:38:07.850 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-01 15:38:07.851 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-09-01 15:38:07.945 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-01 15:38:08.271 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5d671e9e
+2025-09-01 15:38:08.273 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-01 15:38:08.307 [http-nio-8082-exec-1] ERROR c.r.coin.service.impl.SendCoinServiceImpl - type为coin, subType为null的奖励不存在
+2025-09-01 15:38:08.343 [http-nio-8082-exec-2] ERROR c.r.coin.service.impl.SendCoinServiceImpl - type为coin, subType为null的奖励不存在
+2025-09-01 15:38:10.357 [http-nio-8082-exec-3] ERROR c.r.coin.service.impl.SendCoinServiceImpl - type为coin, subType为null的奖励不存在
+2025-09-01 15:38:12.293 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-01 15:38:12.318 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-01 15:38:12.322 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-01 15:38:12.330 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-01 15:38:31.145 [main] INFO  com.reward_project.coin.CoinApplication - Starting CoinApplication using Java 22.0.2 with PID 7124 (D:\grad1\project\coin\target\classes started by 12943 in D:\grad1\project\coin)
+2025-09-01 15:38:31.149 [main] INFO  com.reward_project.coin.CoinApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-01 15:38:32.715 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8082 (http)
+2025-09-01 15:38:32.729 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2025-09-01 15:38:32.732 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-01 15:38:32.733 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-09-01 15:38:32.806 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-01 15:38:32.808 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1576 ms
+2025-09-01 15:38:34.121 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2025-09-01 15:38:34.155 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8082 (http) with context path '/'
+2025-09-01 15:38:34.166 [main] INFO  com.reward_project.coin.CoinApplication - Started CoinApplication in 3.569 seconds (process running for 4.36)
+2025-09-01 15:38:35.514 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-01 15:38:35.514 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-01 15:38:35.515 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-09-01 15:39:02.273 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-01 15:39:02.588 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32a3e161
+2025-09-01 15:39:02.590 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-01 15:39:02.606 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-01 15:39:02.631 [http-nio-8082-exec-1] ERROR c.r.coin.service.impl.SendCoinServiceImpl - type为coin, subType为null的奖励不存在
+2025-09-01 15:39:02.694 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-01 15:39:02.698 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-01 15:39:02.760 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-01 15:39:23.735 [main] INFO  com.reward_project.coin.CoinApplication - Starting CoinApplication using Java 22.0.2 with PID 13480 (D:\grad1\project\coin\target\classes started by 12943 in D:\grad1\project\coin)
+2025-09-01 15:39:23.738 [main] INFO  com.reward_project.coin.CoinApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-01 15:39:24.991 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8082 (http)
+2025-09-01 15:39:25.009 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2025-09-01 15:39:25.012 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-01 15:39:25.012 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-09-01 15:39:25.078 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-01 15:39:25.078 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1293 ms
+2025-09-01 15:39:25.991 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2025-09-01 15:39:26.024 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8082 (http) with context path '/'
+2025-09-01 15:39:26.033 [main] INFO  com.reward_project.coin.CoinApplication - Started CoinApplication in 2.923 seconds (process running for 3.705)
+2025-09-01 15:39:33.323 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-01 15:39:33.324 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-01 15:39:33.324 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-09-01 15:39:33.373 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-01 15:39:33.677 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6e2e620a
+2025-09-01 15:39:33.679 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-01 15:46:13.756 [http-nio-8082-exec-4] ERROR c.r.coin.service.impl.SendCoinServiceImpl - type为coin, subType为null的奖励不存在
+2025-09-01 15:46:13.837 [http-nio-8082-exec-5] ERROR c.r.coin.service.impl.SendCoinServiceImpl - type为coin, subType为null的奖励不存在
+2025-09-01 15:46:15.853 [http-nio-8082-exec-6] ERROR c.r.coin.service.impl.SendCoinServiceImpl - type为coin, subType为null的奖励不存在
+2025-09-01 15:46:54.491 [http-nio-8082-exec-8] ERROR c.r.coin.service.impl.SendCoinServiceImpl - type为coin, subType为null的奖励不存在
+2025-09-01 15:46:54.601 [http-nio-8082-exec-9] ERROR c.r.coin.service.impl.SendCoinServiceImpl - type为coin, subType为null的奖励不存在
+2025-09-01 15:46:56.522 [http-nio-8082-exec-10] ERROR c.r.coin.service.impl.SendCoinServiceImpl - type为coin, subType为null的奖励不存在
+2025-09-01 15:47:10.971 [http-nio-8082-exec-1] ERROR c.r.coin.service.impl.SendCoinServiceImpl - type为coin, subType为null的奖励不存在
+2025-09-01 15:47:13.004 [http-nio-8082-exec-3] ERROR c.r.coin.service.impl.SendCoinServiceImpl - type为coin, subType为null的奖励不存在
+2025-09-01 15:47:15.020 [http-nio-8082-exec-4] ERROR c.r.coin.service.impl.SendCoinServiceImpl - type为coin, subType为null的奖励不存在
+2025-09-01 15:50:16.452 [http-nio-8082-exec-7] ERROR c.r.coin.service.impl.SendCoinServiceImpl - 发subType为coin01的coin失败，外部业务号为musicPlay_9_2025-09-01_coin_coin01_2，已退还数量为1的coin
+2025-09-01 15:53:30.518 [http-nio-8082-exec-9] ERROR c.r.coin.service.impl.SendCoinServiceImpl - 发subType为coin01的coin失败，外部业务号为musicPlay_9_2025-09-01_coin_coin01_2，已退还数量为1的coin
+2025-09-01 17:10:26.391 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h13m22s349ms761µs700ns).
+2025-09-01 17:12:25.422 [http-nio-8082-exec-2] ERROR c.r.coin.service.impl.SendCoinServiceImpl - 发subType为coin01的coin失败，外部业务号为musicPlay_9_2025-09-01_coin_coin01_2，已退还数量为1的coin
+2025-09-01 17:12:30.100 [http-nio-8082-exec-1] ERROR c.r.coin.service.impl.SendCoinServiceImpl - 发subType为coin01的coin失败，外部业务号为musicPlay_9_2025-09-01_coin_coin01_2，已退还数量为1的coin
+2025-09-01 20:00:15.498 [http-nio-8082-exec-7] ERROR c.r.coin.service.impl.SendCoinServiceImpl - 发subType为coin01的coin失败，外部业务号为musicPlay_9_2025-09-01_coin_coin01_1，已退还数量为1的coin
+2025-09-01 20:00:16.416 [http-nio-8082-exec-8] ERROR c.r.coin.service.impl.SendCoinServiceImpl - 发subType为coin01的coin失败，外部业务号为musicPlay_9_2025-09-01_coin_coin01_1，已退还数量为1的coin
+2025-09-01 20:00:17.430 [http-nio-8082-exec-9] ERROR c.r.coin.service.impl.SendCoinServiceImpl - 发subType为coin01的coin失败，外部业务号为musicPlay_9_2025-09-01_coin_coin01_1，已退还数量为1的coin
+2025-09-01 20:00:18.503 [http-nio-8082-exec-10] ERROR c.r.coin.service.impl.SendCoinServiceImpl - 发subType为coin01的coin失败，外部业务号为musicPlay_9_2025-09-01_coin_coin01_1，已退还数量为1的coin
+2025-09-01 20:00:20.514 [http-nio-8082-exec-1] ERROR c.r.coin.service.impl.SendCoinServiceImpl - 发subType为coin01的coin失败，外部业务号为musicPlay_9_2025-09-01_coin_coin01_2，已退还数量为1的coin
+2025-09-01 20:00:21.269 [http-nio-8082-exec-3] ERROR c.r.coin.service.impl.SendCoinServiceImpl - 发subType为coin01的coin失败，外部业务号为musicPlay_9_2025-09-01_coin_coin01_2，已退还数量为1的coin
+2025-09-01 20:00:22.037 [http-nio-8082-exec-4] ERROR c.r.coin.service.impl.SendCoinServiceImpl - 发subType为coin01的coin失败，外部业务号为musicPlay_9_2025-09-01_coin_coin01_2，已退还数量为1的coin
+2025-09-01 20:00:22.818 [http-nio-8082-exec-5] ERROR c.r.coin.service.impl.SendCoinServiceImpl - 发subType为coin01的coin失败，外部业务号为musicPlay_9_2025-09-01_coin_coin01_2，已退还数量为1的coin
+2025-09-01 20:00:23.613 [http-nio-8082-exec-6] ERROR c.r.coin.service.impl.SendCoinServiceImpl - 发subType为coin01的coin失败，外部业务号为musicPlay_9_2025-09-01_coin_coin01_2，已退还数量为1的coin
+2025-09-01 20:00:24.383 [http-nio-8082-exec-7] ERROR c.r.coin.service.impl.SendCoinServiceImpl - 发subType为coin01的coin失败，外部业务号为musicPlay_9_2025-09-01_coin_coin01_2，已退还数量为1的coin
+2025-09-01 20:00:25.257 [http-nio-8082-exec-8] ERROR c.r.coin.service.impl.SendCoinServiceImpl - 发subType为coin01的coin失败，外部业务号为musicPlay_9_2025-09-01_coin_coin01_2，已退还数量为1的coin
+2025-09-01 20:00:26.106 [http-nio-8082-exec-9] ERROR c.r.coin.service.impl.SendCoinServiceImpl - 发subType为coin01的coin失败，外部业务号为musicPlay_9_2025-09-01_coin_coin01_2，已退还数量为1的coin
+2025-09-01 20:00:26.883 [http-nio-8082-exec-10] ERROR c.r.coin.service.impl.SendCoinServiceImpl - 发subType为coin01的coin失败，外部业务号为musicPlay_9_2025-09-01_coin_coin01_2，已退还数量为1的coin
+2025-09-01 20:00:27.745 [http-nio-8082-exec-2] ERROR c.r.coin.service.impl.SendCoinServiceImpl - 发subType为coin01的coin失败，外部业务号为musicPlay_9_2025-09-01_coin_coin01_2，已退还数量为1的coin
+2025-09-01 20:00:39.679 [http-nio-8082-exec-1] ERROR c.r.coin.service.impl.SendCoinServiceImpl - 发subType为coin01的coin失败，外部业务号为musicPlay_9_2025-09-01_coin_coin01_2，已退还数量为1的coin
+2025-09-01 20:00:40.781 [http-nio-8082-exec-3] ERROR c.r.coin.service.impl.SendCoinServiceImpl - 发subType为coin01的coin失败，外部业务号为musicPlay_9_2025-09-01_coin_coin01_2，已退还数量为1的coin
+2025-09-01 21:09:25.079 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47m25s738ms617µs300ns).
+2025-09-01 23:56:48.945 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-01 23:56:48.972 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-01 23:56:48.978 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-01 23:56:48.984 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-01 23:57:35.198 [main] INFO  com.reward_project.coin.CoinApplication - Starting CoinApplication using Java 22.0.2 with PID 9108 (D:\grad1\project\coin\target\classes started by 12943 in D:\grad1\project\coin)
+2025-09-01 23:57:35.202 [main] INFO  com.reward_project.coin.CoinApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-01 23:57:36.656 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8082 (http)
+2025-09-01 23:57:36.674 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2025-09-01 23:57:36.676 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-01 23:57:36.677 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-09-01 23:57:36.737 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-01 23:57:36.737 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1470 ms
+2025-09-01 23:57:37.570 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2025-09-01 23:57:37.590 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8082 (http) with context path '/'
+2025-09-01 23:57:37.600 [main] INFO  com.reward_project.coin.CoinApplication - Started CoinApplication in 3.117 seconds (process running for 4.077)
+2025-09-02 00:21:48.681 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-02 00:21:48.701 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
